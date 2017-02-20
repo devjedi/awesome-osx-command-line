@@ -481,6 +481,13 @@ defaults write com.apple.Dock autohide-delay -float 0 && \
 killall Dock
 ```
 
+#### Set Auto Show/Hide Animation Duration
+The float number defines the duration of the show/hide animation in seconds.
+```bash
+defaults write com.apple.dock autohide-time-modifier -float 0 && \
+killall Dock
+```
+
 #### Show Hidden App Icons
 ```bash
 # Enable
